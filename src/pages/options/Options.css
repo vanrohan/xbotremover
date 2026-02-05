@@ -1,0 +1,158 @@
+html, body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #264653;
+  color: #E9C46A;
+  min-height: 100vh;
+  width: 100%;
+}
+
+.container {
+  min-height: 100vh;
+  width: 100%;
+  max-width: none;
+  margin: 0;
+  padding: 40px;
+  background-color: #264653;
+  box-sizing: border-box;
+}
+
+h1 {
+  color: #F4A261;
+  margin-bottom: 10px;
+}
+
+h2 {
+  color: #2A9D8F;
+  font-size: 1.2em;
+  margin-top: 20px;
+}
+
+.warning {
+  color: #E76F51;
+  font-weight: bold;
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #E76F51;
+  border-radius: 4px;
+}
+
+.settings-group {
+  margin-bottom: 40px;
+  padding: 30px;
+  border: 1px solid #2A9D8F;
+  border-radius: 8px;
+  background-color: #1a2f38;
+  max-width: 1200px;
+}
+
+.settings-group h2 {
+  margin-top: 0;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #2A9D8F;
+}
+
+.setting {
+  margin-bottom: 15px;
+  display: grid;
+  grid-template-columns: 250px 120px 1fr;
+  align-items: center;
+  gap: 10px;
+}
+
+label {
+  font-weight: bold;
+  padding-right: 10px;
+}
+
+input[type="number"] {
+  padding: 8px;
+  border: 1px solid #2A9D8F;
+  border-radius: 4px;
+  background-color: #264653;
+  color: #E9C46A;
+  width: 90px;
+  text-align: center;
+}
+
+.help-text {
+  color: #666;
+  font-size: 0.9em;
+  margin-top: 4px;
+  display: block;
+}
+
+.form-group {
+  margin-bottom: 40px;
+  padding: 30px;
+  border: 1px solid #2A9D8F;
+  border-radius: 8px;
+  background-color: #1a2f38;
+  max-width: 1200px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+textarea#usernamesToRemove {
+  font-family: monospace;
+  padding: 8px;
+  border: 1px solid #2A9D8F;
+  border-radius: 4px;
+  background-color: #264653;
+  color: #E9C46A;
+  resize: vertical;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.button-container {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+#save {
+  background-color: #2A9D8F;
+  color: white;
+}
+
+#reset {
+  background-color: #E76F51;
+  color: white;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+#status {
+  margin-top: 20px;
+  padding: 10px;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.success {
+  background-color: #2A9D8F;
+  color: white;
+}
+
+.error {
+  background-color: #E76F51;
+  color: white;
+}

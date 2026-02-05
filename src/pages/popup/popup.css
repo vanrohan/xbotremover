@@ -1,0 +1,275 @@
+.popup-container {
+  font-family: Arial, sans-serif;
+  width: 300px;
+  padding: 15px;
+  background-color: #264653;
+  color: #E9C46A;
+  overflow-y: auto;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+
+.header img {
+  margin-right: 20px;
+  width: 64px;
+  height: 64px;
+}
+
+.header-text {
+  text-align: center;
+}
+
+.header-text h1 {
+  font-size: 18px;
+  margin: 0 0 3px 0;
+  color: #F4A261;
+}
+
+.header-text h2 {
+  font-size: 14px;
+  margin: 0;
+  padding-top: 2px;
+  color: #F4A261;
+}
+
+.header-with-settings {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.header-with-settings h3 {
+  margin: 0;
+  font-size: 16px;
+  color: #E9C46A;
+}
+
+#settings-icon {
+  cursor: pointer;
+  font-size: 1.5em;
+  transition: transform 0.3s ease;
+}
+
+#settings-icon:hover {
+  transform: rotate(45deg);
+}
+
+.input-row {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.input-group.full-width {
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.checkbox-input {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.checkbox-input input[type="checkbox"] {
+  width: 20px;
+  margin-right: 5px;
+}
+
+.checkbox-input label {
+  font-size: 12px;
+  color: #E9C46A;
+}
+
+input[type="number"],
+input[type="text"] {
+  width: 100%;
+  padding: 4px;
+  border: 1px solid #2A9D8F;
+  background-color: #264653;
+  color: #E9C46A;
+  margin-left: 5px;
+}
+
+input[type="number"].disabled,
+input[type="text"].disabled {
+  background-color: #4a4a4a;
+  color: #888;
+}
+
+input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+label {
+  display: block;
+  font-size: 12px;
+}
+
+.warning-section {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+#warning-text {
+  color: #E76F51;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+#validation-warning {
+  color: #E76F51;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+.controls {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.dry-run-control {
+  display: flex;
+  align-items: center;
+}
+
+.dry-run-control input[type="checkbox"] {
+  width: 20px;
+  margin-right: 5px;
+}
+
+.dry-run-control label {
+  width: 45px;
+  font-size: 12px;
+}
+
+button {
+  padding: 8px 16px;
+  background-color: #2A9D8F;
+  color: #264653;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: #E76F51;
+}
+
+button:disabled {
+  background-color: #264653;
+  color: #E9C46A;
+  cursor: not-allowed;
+}
+
+#start-btn {
+  flex-grow: 1;
+}
+
+#stop-btn {
+  width: 100%;
+  padding: 10px;
+  background-color: #E76F51;
+  color: #264653;
+  margin-top: 10px;
+}
+
+#stop-btn:hover {
+  background-color: #F4A261;
+}
+
+#keep-open-text {
+  color: #E76F51;
+  margin: 10px 0;
+  font-weight: bold;
+  text-align: center;
+  font-size: 12px;
+}
+
+#status-message {
+  margin-top: 10px;
+  font-style: italic;
+  text-align: center;
+  font-size: 12px;
+}
+
+#metrics-container {
+  margin-top: 15px;
+}
+
+.metric {
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.metric-label {
+  font-weight: bold;
+  display: block;
+  font-size: 12px;
+}
+
+.metric-value {
+  display: block;
+  font-size: 18px;
+  margin-top: 5px;
+  color: #F4A261;
+}
+
+.metric-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.metric-row .metric {
+  flex: 1;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+  margin-top: 15px;
+  border-top: 1px solid #2A9D8F;
+}
+
+#follow-link {
+  color: white;
+  font-size: 1.2em;
+  text-decoration: none;
+}
+
+#follow-link:hover {
+  text-decoration: underline;
+}
+
+.coffee-link {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #FFDD00;
+  color: #000000;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+.coffee-link:hover {
+  background-color: #F4A261;
+}

@@ -1,0 +1,65 @@
+{
+  "name": "x-bot-remover",
+  "version": "2025.11.1",
+  "description": "Automates removal of X (Twitter) Bot followers from your own account. Can also be used to clean your followers list. Uses adjustable rules to identify accounts to unfollow.",
+  "author": {
+    "name": "X Bot Remover Team"
+  },
+  "keywords": [
+    "chrome-extension",
+    "twitter",
+    "x",
+    "bot-removal",
+    "unfollow",
+    "automation",
+    "social-media"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vanrohan/xbotremover.git"
+  },
+  "homepage": "https://vanderwalt.de/blog/x-bot-remover",
+  "bugs": {
+    "url": "https://github.com/vanrohan/xbotremover/issues"
+  },
+  "scripts": {
+    "build": "vite build --config vite.config.chrome.ts",
+    "build:chrome": "vite build --config vite.config.chrome.ts",
+    "build:firefox": "vite build --config vite.config.firefox.ts",
+    "dev": "nodemon --config nodemon.chrome.json",
+    "dev:chrome": "nodemon --config nodemon.chrome.json",
+    "dev:firefox": "nodemon --config nodemon.firefox.json"
+  },
+  "type": "module",
+  "dependencies": {
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "webextension-polyfill": "^0.12.0"
+  },
+  "devDependencies": {
+    "@crxjs/vite-plugin": "^2.0.3",
+    "@tailwindcss/vite": "^4.1.11",
+    "@types/chrome": "^0.1.0",
+    "@types/node": "^24.0.10",
+    "@types/react": "^19.1.8",
+    "@types/react-dom": "^19.1.6",
+    "@types/webextension-polyfill": "^0.12.3",
+    "@typescript-eslint/eslint-plugin": "^7.8.0",
+    "@typescript-eslint/parser": "^7.18.0",
+    "@vitejs/plugin-react": "^4.7.0",
+    "eslint": "^9.32.0",
+    "eslint-config-prettier": "^10.1.5",
+    "eslint-plugin-import": "^2.32.0",
+    "eslint-plugin-jsx-a11y": "^6.10.2",
+    "eslint-plugin-react": "^7.37.5",
+    "eslint-plugin-react-hooks": "^5.2.0",
+    "fs-extra": "^11.3.0",
+    "nodemon": "^3.1.10",
+    "tailwindcss": "^4.1.8",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3",
+    "vite": "^6.3.5",
+    "vite-tsconfig-paths": "^5.1.4"
+  },
+  "packageManager": "yarn@1.22.22+sha1.ac34549e6aa8e7ead463a7407e1c7390f61a6610"
+}
