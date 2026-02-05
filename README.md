@@ -2,6 +2,8 @@
 
 X Bot Remover is a browser extension that automates removal of X (Twitter) bot followers from your own account. It uses adjustable rules to identify bots and can also be used to clean your followers or following list.
 
+[More details here](https://vanderwalt.de/blog/x-bot-remover)
+
 ## Features
 
 - **Adjustable rules** – Configure thresholds for followers, following count, post count, username patterns, bio text, and more.
@@ -11,10 +13,10 @@ X Bot Remover is a browser extension that automates removal of X (Twitter) bot f
 
 ## Installation
 
-### From the store (if published)
+### From the store
 
 - **Chrome:** [Chrome Web Store](https://chromewebstore.google.com/detail/x-bot-remover/aohkhfmnpbofebaljcienghochiiohno)
-- **Firefox:** - Not published
+
 
 ### Build from source
 
